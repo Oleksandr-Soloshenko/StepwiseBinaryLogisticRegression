@@ -1,0 +1,18 @@
+Package: StepwiseBinaryLogisticRegression
+Type: Package
+Title: A package providing stepwise variable selection for binary logistic regression
+Version: 1.0.0
+Authors@R: person(given = "Oleksandr",
+                  family = "Soloshenko",
+                  role = c("aut", "cre"),
+                  email = "soloshenko_s@ukr.net",
+                  comment = c(ORCID = "0000-0002-1329-0989"))
+Maintainer: Oleksandr Soloshenko <soloshenko_s@ukr.net>
+Depends: R (>= 3.5.0)
+Description: This package conducts stepwise variable selection based on p-value for entry (sle - significance level for entry) and p-value for stay (sls - significance level for stay) for binary logistic regression.
+License: GPL-3
+Imports: stats, formula.tools, magrittr, Matrix
+Suggests: mlbench
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.1.0
