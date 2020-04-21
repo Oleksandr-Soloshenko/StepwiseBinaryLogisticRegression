@@ -1,6 +1,6 @@
 Package: StepwiseBinaryLogisticRegression
 Type: Package
-Title: A package providing stepwise variable selection for binary logistic regression
+Title: Stepwise Variable Selection for Binary Logistic Regression
 Version: 1.0.0
 Authors@R: person(given = "Oleksandr",
                   family = "Soloshenko",
@@ -9,7 +9,7 @@ Authors@R: person(given = "Oleksandr",
                   comment = c(ORCID = "0000-0002-1329-0989"))
 Maintainer: Oleksandr Soloshenko <soloshenko_s@ukr.net>
 Depends: R (>= 3.5.0)
-Description: This package conducts stepwise variable selection based on p-value for entry (sle - significance level for entry) and p-value for stay (sls - significance level for stay) for binary logistic regression.
+Description: Stepwise variable selection based on p-values for entry (sle - significance level for entry) and for stay (sls - significance level for stay) for binary logistic regression. It provides final binomial generalized linear model with logit link function after stepwise variable selection procedure also providing pretty clear report into output containing each triggered step by default including p-values for entry table, also there are a backward function which could be used independently outside the stepwise function source code and the function to estimate p-values for entry.
 License: GPL-3
 Imports: stats, formula.tools, magrittr, Matrix
 Suggests: mlbench
